@@ -1,0 +1,62 @@
+*{
+  font-family: "Nunito";
+}
+
+
+.sSpan {
+  --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity));
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    max-width: fit-content;
+    display: none
+}
+
+input:invalid[focused ="true"] ~ .sSpan {
+  
+  display: block;
+}
+
+
+
+.lfo {
+  --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity));
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    max-width: fit-content;
+    display: none;
+
+}
+
+input:invalid ~ .lfo {
+  display: block;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+   /* Width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #9cb09f;
+  border-radius: 10px;
+  width: 7px; /* Color of the thumb */
+}
+
+
+
+
+
+
+
